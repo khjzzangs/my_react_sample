@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="./node_modules/react/umd/react.development.js"></script>
+    <script src="./node_modules/react-dom/umd/react-dom.development.js"></script>
+    <title>리액트JS</title>
+</head>
+<body>
+    <div id="content"></div>
+    <script type="text/javascript">
+        const h1 = React.createElement('h1', null, 'Hello world!')
+        ReactDOM.render(
+            h1,
+            document.getElementById('content')
+        )
+    </script>
+</body>
+</html>
